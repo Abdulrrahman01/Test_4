@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@400;500;600;700;800;900&family=Comforter&family=Mochiy+Pop+P+One&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Tajawal:wght@300;400;500;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white">
+            <h3 class="fw-bold">Abdul</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-items-center" href="index.html">
+                        <i class="fa-solid fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-items-center" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-items-center" href="Profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-items-center" href="Projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-items-center" href="Courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-items-center" href="Friends.html">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-items-center" href="Files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center" href="Plans.html">
+                        <i class="fa-solid fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="head bg-white d-flex align-items-center justify-content-between">
+                <div class="search">
+                    <input type="search" placeholder="Type A keyword">
+                </div>
+                <div class="icons d-flex align-items-center">
+                    <span class="notification">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </div>
+            <h2>Settings</h2>
+            <div class="wrapper d-grid">
+                <div class="col">
+                    <div class="control p-3 fw-bold">
+                        <div class="part-title">
+                            <h4 class="fw-bold pt-2">Site Control</h4>
+                            <p class="text-black-50">Control The Website If There Is Maintainence</p>
+                        </div>
+                        <div class="content d-flex justify-content-between">
+                            <div class="text">
+                                <p class="m-0 mb-1">Website Control</p>
+                                <span class="text-black-50">Open/Close Website And Type The Reason</span>
+                            </div>
+                            <button id="checkbox" class="checkbox" role="switch"></button>
+                        </div>
+                        <textarea placeholder="Close Message Content"></textarea>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="information p-3 fw-bold">
+                        <div class="part-title">
+                            <h4 class="fw-bold pt-2">General Info</h4>
+                            <p class="text-black-50">General Information About Your Account</p>
+                        </div>
+                        <div class="forms">
+                            <form action="">
+                                <div class="label text-black-50" >First name</div>
+                                <input type="text" placeholder="First Name">
+                            </form>
+                        </div>
+                        <div class="forms">
+                            <form action="">
+                                <div class="label text-black-50" >Last name</div>
+                                <input type="text" placeholder="Last Name">
+                            </form>
+                        </div>
+                        <div class="forms">
+                            <form action="">
+                                <div class="label text-black-50" >Email</div>
+                                <input class="email" type="email" placeholder="o@nn.sa">
+                                <a class="change" href="">Change</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="security p-3">
+                        <div class="part-title">
+                            <h4 class="fw-bold pt-2">Security Info</h4>
+                            <p class="fw-bold text-black-50">Security Information About Your Account</p>
+                        </div>
+                        <div class="secure d-flex justify-content-between">
+                            <div class="text">
+                                <p class="m-0 mb-1">Password</p>
+                                <span class="text-black-50">Last Change On 21/10/2021</span>
+                            </div>
+                            <button type="button" class="button btn btn-primary btn-sm">Change</button>
+                        </div>
+                        <div class="secure d-flex justify-content-between">
+                            <div class="text">
+                                <p class="m-0 mb-1">Two-Factor Authentication</p>
+                                <span class="text-black-50">Enable/Disable The Feature</span>
+                            </div>
+                            <button id="checkbox1" class="checkbox" role="switch"></button>
+                        </div>
+                        <div class="secure d-flex justify-content-between">
+                            <div class="text">
+                                <p class="m-0 mb-1">Devices</p>
+                                <span class="text-black-50">Check The Login Devices List</span>
+                            </div>
+                            <button type="button" class="button btn btn-secondary btn-sm">Devices</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="social-info p-3">
+                        <div class="part-title">
+                            <h4 class="fw-bold pt-2">Social Info</h4>
+                            <p class="fw-bold text-black-50">Social Media Information</p>
+                        </div>
+                        <div class="social-web d-flex">
+                            <i class="text-black-50 fa-brands fa-twitter"></i>
+                            <p class="text-black-50">Twitter Username</p>
+                        </div>
+                        <div class="social-web d-flex">
+                            <i class="text-black-50 fa-brands fa-facebook-f"></i>
+                            <p class="text-black-50">Facebook Username</p>
+                        </div>
+                        <div class="social-web d-flex">
+                            <i class="text-black-50 fa-brands fa-youtube"></i>
+                            <p class="text-black-50">Youtube Username</p>
+                        </div>
+                        <div class="social-web d-flex">
+                            <i class="text-black-50 fa-brands fa-linkedin"></i>
+                            <p class="text-black-50">Linkedin Username</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="widgets p-3">
+                        <div class="part-title">
+                            <h4 class="fw-bold pt-2">Widgets Control</h4>
+                            <p class="fw-bold text-black-50">Show/Hide Widgets</p>
+                        </div>
+                        <div class="widget d-flex">
+                            <div class="icon-widget done">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="ps-2">Quick Draft</p>
+                        </div>
+                        <div class="widget d-flex">
+                            <div class="icon-widget done">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="ps-2">Yearly Target</p>
+                        </div>
+                        <div class="widget d-flex">
+                            <div class="icon-widget done">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="ps-2">Tickets Statistics</p>
+                        </div>
+                        <div class="widget d-flex">
+                            <div class="icon-widget done">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="ps-2">Latest News</p>
+                        </div>
+                        <div class="widget d-flex">
+                            <div class="icon-widget">
+                            </div>
+                            <p class="ps-2">Latest Tasks</p>
+                        </div>
+                        <div class="widget d-flex">
+                            <div class="icon-widget done">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="ps-2">Top Search Items</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="backup p-3">
+                        <div class="part-title">
+                            <h4 class="fw-bold pt-2">Backup Manager</h4>
+                            <p class="fw-bold text-black-50">Control Backup Time And Location</p>
+                        </div>
+                        <div class="backup-time">
+                            <div class="time d-flex">
+                                <span class="do"></span><p>Daily</p>
+                            </div>
+                            <div class="time d-flex">
+                                <span class="do"></span><p>Weekly</p>
+                            </div>
+                            <div class="time d-flex">
+                                <span class="em"></span><p>Monthly</p>
+                            </div>
+                        </div>
+                        <div class="backup-locat d-flex justify-content-between">
+                            <div class="locat d-flex flex-column"><i class="fa-solid fa-bars-progress fs-5 pb-1"></i>Megaman</div>
+                            <div class="active locat d-flex flex-column"><i class="fa-solid fa-bars-progress fs-5 pb-1"></i>Zero</div>
+                            <div class="locat d-flex flex-column"><i class="fa-solid fa-bars-progress fs-5 pb-1"></i>Sigma</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
